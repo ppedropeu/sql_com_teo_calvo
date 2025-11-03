@@ -26,6 +26,7 @@ Os códigos são organizados para refletir a progressão do curso ou por tópico
 ---
 - [`01_count.sql`](https://github.com/ppedropeu/exercicios_sql/blob/main/03_aula_Count/01_count.sql) — A consulta retorna o número total de linhas (registros) contidos na tabela clientes.
 - [`02_distinct.sql`](https://github.com/ppedropeu/exercicios_sql/blob/main/03_aula_Count/02_distinct.sql) — A consulta retorna uma lista de combinações únicas dos valores contidos nas colunas flTwitch e flEmail da tabela clientes.
+- [`03_count_distinct.sql`](https://github.com/ppedropeu/exercicios_sql/blob/main/03_aula_Count/03_count_distinct.sql) — Conta a quantidade de transações que aconteceram em julho/2025.
 ---
 - [`01_where.sql`](https://github.com/ppedropeu/sql_com_teo_calvo/blob/main/Exercicios/01_Exercicios_where/01_where.sql) — Seleciona todas as informações dos clientes que possuem um e-mail cadastrado (onde o indicador de flag é '1').
 - [`02_where.sql`](https://github.com/ppedropeu/sql_com_teo_calvo/blob/main/Exercicios/01_Exercicios_where/02_where.sql) — Seleciona todas as informações de transações que resultaram em exatamente 50 pontos.
