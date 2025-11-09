@@ -1,5 +1,5 @@
 # SQL com o Téo Calvo: Repositório de Estudos
-    Repositório atualizado em: 01/11/2025;
+    Repositório atualizado em: 09/11/2025;
     24 Exercícios do curso respondidos até o momento
 Este repositório documenta minha jornada de aprendizado e prática em SQL (Structured Query Language). Ele contém todos os códigos e soluções que estou desenvolvendo com base no curso do **Téo Calvo**, disponível no canal [Téo Me Why](https://www.youtube.com/watch?v=VmkJG8awKqM&list=PLvlkVRRKOYFRo651oD0JptVqfQGDvMi3j).
 
