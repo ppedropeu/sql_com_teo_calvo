@@ -15,7 +15,7 @@ Este repositório documenta minha jornada de aprendizado e prática em SQL (Stru
 
 Os códigos são organizados para refletir a progressão do curso ou por tópicos, garantindo a rastreabilidade do meu aprendizado.
 
-### Lista de exercícios
+### Lista de exercícios aula 01
 
 - [`00_tables.sql`](https://github.com/ppedropeu/sql_com_teo_calvo/blob/main/01_aula_Where/00_tables.sql) — Lista os nomes de todas as tabelas existentes no banco de dados atualmente conectado.
 - [`01_select.sql`](https://github.com/ppedropeu/sql_com_teo_calvo/blob/main/01_aula_Where/01_select.sql) — Seleciona todas as colunas de identificação e registro de data e hora da tabela de clientes..
@@ -24,12 +24,20 @@ Os códigos são organizados para refletir a progressão do curso ou por tópico
 - [`04_select_as.sql`](https://github.com/ppedropeu/sql_com_teo_calvo/blob/main/01_aula_Where/04_select_as_col.sql) — Seleciona os IDs e pontos de 10 clientes, calculando pontos transformados e extraindo a data de criação formatada, incluindo o dia da semana.
 - [`05_order_by.sql`](https://github.com/ppedropeu/sql_com_teo_calvo/blob/main/01_aula_Where/05_order_by.sql) — Seleciona todas as colunas de um máximo de dez produtos cuja categoria é 'rpg'.
 ---
+### Lista de exercícios aula 02
+
+- [`01_case_when_then_end.sql`](https://github.com/ppedropeu/sql_com_teo_calvo/blob/main/02_aula_Case_when_then/01_case_when.sql) — Lista o ID da transação e a pontuação, classificando cada transação como 'Baixo', 'Medio' ou 'Alto' com base na quantidade de pontos, e ordena o resultado pela pontuação.
+---
+### Lista de exercícios aula 03
+
 - [`01_count.sql`](https://github.com/ppedropeu/exercicios_sql/blob/main/03_aula_Count/01_count.sql) — A consulta retorna o número total de linhas (registros) contidos na tabela clientes.
 - [`02_distinct.sql`](https://github.com/ppedropeu/exercicios_sql/blob/main/03_aula_Count/02_distinct.sql) — A consulta retorna uma lista de combinações únicas dos valores contidos nas colunas flTwitch e flEmail da tabela clientes.
 - [`03_count_distinct.sql`](https://github.com/ppedropeu/exercicios_sql/blob/main/03_aula_Count/03_count_distinct.sql) — Conta a quantidade de transações que aconteceram em julho/2025.
 - [`04_count_distinct.sql`](https://github.com/ppedropeu/exercicios_sql/blob/main/03_aula_Count/04_count_distinct.sql) — Conta a quantidade de transações por id de clientes, que aconteceram em julho/2025.
 - [`05_sum.sql`](https://github.com/ppedropeu/exercicios_sql/blob/main/03_aula_Count/04_count_distinct.sql) — Conta a quantidade de pontos positivos no mes de Julho/2025.
 ---
+### Lista de exercícios práticos
+
 - [`01_where.sql`](https://github.com/ppedropeu/sql_com_teo_calvo/blob/main/Exercicios/01_Exercicios_where/01_where.sql) — Seleciona todas as informações dos clientes que possuem um e-mail cadastrado (onde o indicador de flag é '1').
 - [`02_where.sql`](https://github.com/ppedropeu/sql_com_teo_calvo/blob/main/Exercicios/01_Exercicios_where/02_where.sql) — Seleciona todas as informações de transações que resultaram em exatamente 50 pontos.
 - [`03_where.sql`](https://github.com/ppedropeu/sql_com_teo_calvo/blob/main/Exercicios/01_Exercicios_where/03_where.sql) — Seleciona o ID e a quantidade de pontos dos clientes que possuem mais de 500 pontos.
@@ -42,8 +50,6 @@ Os códigos são organizados para refletir a progressão do curso ou por tópico
 - [`10_where.sql`](https://github.com/ppedropeu/sql_com_teo_calvo/blob/main/Exercicios/01_Exercicios_where/10_where.sql) — Seleciona o ID e o nome dos produtos cuja descrição termina com a palavra "Lover".
 - [`11_where.sql`](https://github.com/ppedropeu/sql_com_teo_calvo/blob/main/Exercicios/01_Exercicios_where/11_where.sql) — Seleciona o ID e o nome de todos os produtos cuja descrição contenha a palavra 'chapéu' em qualquer posição.
 - [`12_where.sql`](https://github.com/ppedropeu/sql_com_teo_calvo/blob/main/Exercicios/01_Exercicios_where/12_where.sql) — Seleciona os detalhes de todas as transações que incluem o produto específico de ID 15 ("Resgatar Ponei").
----
-- [`01_case_when_then_end.sql`](https://github.com/ppedropeu/sql_com_teo_calvo/blob/main/02_aula_Case_when_then/01_case_when.sql) — Lista o ID da transação e a pontuação, classificando cada transação como 'Baixo', 'Medio' ou 'Alto' com base na quantidade de pontos, e ordena o resultado pela pontuação.
 ---
 
 ## Tecnologias utilizadas
